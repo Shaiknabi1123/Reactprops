@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
+//import ClassComponent from'./ClassComponent'
+import PropsExample from './PropsExample'
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return(
+      <section>
+          <PropsExample name="hakima" age="19"/>
+          <PropsExample name="Iyad" age="5"/>
+        {/* <p>BeYourSelf</p>
+          <h1>Heading</h1>
+          <img src="https://www.carblogindia.com/wp-content/uploads/2020/08/Mahindra-Thar-1-1200x900.jpg" width="50%" alt="thar" />
+          <ClassComponent/>*/}
+      </section>
+  )
 }
 
 export default App;
+  
