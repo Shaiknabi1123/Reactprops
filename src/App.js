@@ -1,17 +1,20 @@
-//import ClassComponent from'./ClassComponent'
-import PropsExample from './PropsExample'
-function App() {
+import Demo from './Demo'
+import StateExample from './StateExample'
+import FuncProps from './FuncProps'
+import Event from './Event'
+function App(){
   return(
-      <section>
-          <PropsExample name="hakima" age="19"/>
-          <PropsExample name="Iyad" age="5"/>
-        {/* <p>BeYourSelf</p>
-          <h1>Heading</h1>
-          <img src="https://www.carblogindia.com/wp-content/uploads/2020/08/Mahindra-Thar-1-1200x900.jpg" width="50%" alt="thar" />
-          <ClassComponent/>*/}
-      </section>
-  )
+      <div>
+      <Event/>
+      <Demo price="1st price"/>
+      <StateExample/>
+      <FuncProps carname="thar" year="2017"/>
+        <h1>Hello</h1>
+        {/*<Demo subject="ReactJS" year="2008"/>
+        <Demo subject="Angular" year="2013"/>
+        <Demo subject="Vue" year="2017"/>
+      */}
+      </div>
+    )
 }
-
-export default App;
-  
+export default App
